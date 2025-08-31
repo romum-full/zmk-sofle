@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - NEXT
+  - $$mdi:skip-next$$
   - N
   - M
   - {t: ',', s: <}
