@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   qwerty:
-  - {t: '$$mdi:keyboard-esc$$', h: '~'}
+  - '~'
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -55,7 +55,7 @@ layers:
   - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:volume-off$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - {t: LEFT WIN, h: f_layer}
   - $$mdi:keyboard-space$$
