@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - {t: PRINTSCREEN, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:volume-off$$
-  - $$mdi:backspace-reverse-outline$$
   - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: LEFT WIN, h: f_layer}
   - $$mdi:keyboard-space$$
@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: f_layer, h: toggle}
+  - $$mdi:backspace-reverse-outline$$
   f_layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
