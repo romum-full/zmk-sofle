@@ -31,11 +31,11 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - J
   - K
   - L
   - {t: ;, s: ':'}
@@ -58,7 +58,7 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-option$$
   - {t: LEFT WIN, h: f_layer}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
