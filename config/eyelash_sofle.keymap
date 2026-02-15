@@ -65,11 +65,6 @@
             bindings = <&kp B>;
             key-positions = <46 47>;
         };
-
-        left_alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <17 18>;
-        };
     };
 
     keymap {
@@ -77,11 +72,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC           &mt GRAVE N1  &kp N2     &kp N3        &kp N4          &kp N5       &kp UP_ARROW     &kp N6     &kp N7         &kp N8          &kp N9          &kp N0           &kp MINUS
-&kp TAB           &kp Q         &kp W      &kp E         &kp R           &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I           &kp O           &kp P            &kp EQUAL
-&kp LEFT_SHIFT    &kp A         &kp S      &kp D         &kp F           &kp G        &kp LEFT_ARROW   &kp H      &kp J          &kp K           &kp L           &kp SEMI         &kp APOS
-&kp LEFT_CONTROL  &kp Z         &kp X      &kp C         &kp V           &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp UP_ARROW    &kp COMMA       &kp PERIOD       &kp SLASH
-&kp C_MUTE        &tog 1        &kp TILDE  &kp LEFT_ALT  &lt 2 LEFT_WIN  &kp SPACE    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp GRAVE         &kp N1   &kp N2   &kp N3        &kp N4          &kp N5       &tog 2           &kp N6     &kp N7         &kp N8          &kp N9          &kp N0           &kp MINUS
+&kp TAB           &kp Q    &kp W    &kp E         &kp R           &kp T        &kp DOWN_ARROW   &kp Y      &kp U          &kp I           &kp O           &kp P            &kp EQUAL
+&kp LEFT_SHIFT    &kp A    &kp S    &kp D         &kp F           &kp G        &tog 1           &kp H      &kp J          &kp K           &kp L           &kp SEMI         &kp APOS
+&kp LEFT_CONTROL  &kp Z    &kp X    &kp C         &kp V           &kp B        &kp RIGHT_ARROW  &kp N      &kp M          &kp UP_ARROW    &kp COMMA       &kp PERIOD       &kp SLASH
+&kp C_MUTE        &kp DEL  &kp ESC  &kp LEFT_ALT  &lt 2 LEFT_WIN  &kp SPACE    &kp ENTER        &kp ENTER  &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
