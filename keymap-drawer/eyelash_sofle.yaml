@@ -1,13 +1,13 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   qwerty:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', h: '`', s: '!'}
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {t: f_layer, h: toggle}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - {t: game, h: toggle}
   - H
   - J
   - K
@@ -54,8 +54,8 @@ layers:
   - .
   - {t: /, s: '?'}
   - $$mdi:volume-off$$
-  - {t: game, h: toggle}
-  - '~'
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-option$$
   - {t: LEFT WIN, h: f_layer}
   - $$mdi:keyboard-space$$
@@ -202,5 +202,3 @@ combos:
   k: Ctl+V
 - p: [46, 47]
   k: B
-- p: [17, 18]
-  k: $$mdi:apple-keyboard-option$$
