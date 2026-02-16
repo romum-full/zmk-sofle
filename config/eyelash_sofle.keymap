@@ -61,7 +61,7 @@
             key-positions = <42 43>;
         };
 
-        b {
+        b_right {
             bindings = <&kp B>;
             key-positions = <46 47>;
         };
@@ -76,7 +76,7 @@
             key-positions = <30 31>;
         };
 
-        b {
+        b_left {
             bindings = <&kp B>;
             key-positions = <43 44>;
         };
