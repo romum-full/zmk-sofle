@@ -65,6 +65,21 @@
             bindings = <&kp B>;
             key-positions = <46 47>;
         };
+
+        t {
+            bindings = <&kp T>;
+            key-positions = <17 18>;
+        };
+
+        g {
+            bindings = <&kp G>;
+            key-positions = <30 31>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <43 44>;
+        };
     };
 
     keymap {
